@@ -1,0 +1,21 @@
+---
+title: "Palmer Penguins Initial Analysis"
+author: "Ricky Bobby"
+format: html
+editor: visual
+execute:
+  keep-md: true
+---
+
+## Palmer Penguins
+
+Let's conduct an initial analysis of the Palmer Penguins dataset!
+
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+
+penguins %>% head()
+```
+
+The `penguins` data set contains physiological measurements of different species of penguins observed on different islands and in different years. We can see the first six rows of the data set above.
